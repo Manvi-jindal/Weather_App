@@ -1,0 +1,133 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+p {
+  font-family: "Quicksand", sans-serif;
+}
+.card-body {
+  box-shadow: 5px 2px 20px rgb(46, 46, 59);
+}
+
+form.searchBox {
+  margin: 20px auto;
+  width: 260px;
+}
+
+.searchBox input {
+  border-radius: 20px 0 0 20px;
+}
+.searchBox .btn-primary {
+  width: 50px;
+}
+
+.searchBox .btn-secondary {
+  width: 40px;
+  border-radius: 0 20px 20px 0;
+  text-align: center;
+  padding: 0;
+}
+.locationIcon {
+  width: 50%;
+  height: auto;
+}
+
+.currentCity {
+  color: #5a6275;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.todayInfo {
+  text-align: center;
+  color: #5a6275;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.todayInfo::first-letter {
+  text-transform: capitalize;
+}
+
+.todayTempInfo {
+  justify-content: center;
+}
+
+div .todayTemp {
+  display: inline;
+  text-align: right;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 0;
+  max-width: 100px;
+}
+
+div .unit {
+  display: inline;
+  position: relative;
+  left: 0;
+  bottom: 0px;
+  max-width: 100px;
+}
+.unit a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.todayTempInfo .active {
+  color: #5a6275;
+  cursor: default;
+}
+.todayTempInfo .active {
+  text-decoration: none;
+}
+
+.todayIcon {
+  display: inline;
+  width: 30px;
+}
+
+.todayExtra {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 3;
+}
+
+.dayX {
+  text-align: center;
+  line-height: 3;
+}
+
+.dayX img {
+  width: 30px;
+}
+
+.dayXtemp_max {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.dayXtemp_min {
+  font-weight: 400;
+}
+.weather_forecast {
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  font-weight: 600;
+  font-size: 14px;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
