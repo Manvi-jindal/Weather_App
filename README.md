@@ -1,4 +1,4 @@
-#Weather App
+
 This Weather App provides real-time weather information along with a 5-day forecast for any city. It features geolocation support to show the weather for the user's current location and allows toggling between Celsius and Fahrenheit temperature units.
 
 Features
