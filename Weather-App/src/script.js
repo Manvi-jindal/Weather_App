@@ -145,4 +145,4 @@ fahrenheitLink.addEventListener("click", displayFahrenheit);
 let celsiusLink = document.querySelector("#unit-c");
 celsiusLink.addEventListener("click", displayCelsius);
 
-searchDefault("Tehran");
+searchDefault("Delhi");
